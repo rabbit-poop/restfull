@@ -12,7 +12,7 @@ public class RestUserController {
 	@RequestMapping(value ="/html/{id}",method = RequestMethod.GET)
 	public String getByIdInHTML(@PathVariable String id, ModelMap model) {
 		
-		return "data";
+		return "data11";
 	}
 	
 	
